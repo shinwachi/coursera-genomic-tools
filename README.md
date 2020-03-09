@@ -1,6 +1,8 @@
 # coursera-genomic-tools
 Software needed to complete Coursera's "Command Line Tools for Genomic Data Science"
 
+https://www.coursera.org/learn/genomic-tools
+
 This creates the environment that's needed to complete the course assignments.  The image was built for people who can't install VirtualBox VM (the course provides virtual appliance image file).
 
 Hopefully you'll find this useful.  Please don't forget to star!
