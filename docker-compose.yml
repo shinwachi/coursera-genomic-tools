@@ -1,0 +1,16 @@
+version: '2'
+services:
+        coursera:
+                build:
+                        context: .
+                        dockerfile: Dockerfile
+                        #args:
+                        # - http_proxy=<your_proxy_url>
+                        # - ftp_proxy=<your_proxy_url>
+                        # - https_proxy=<your_proxy_url>
+                        #environment:
+                        # http_proxy: "<your_proxy_url>"
+                        # ftp_proxy: "<your_proxy_url>"
+                        # https_proxy: "<your_proxy_url>"
+                volumes:
+                        - ./data:/data
