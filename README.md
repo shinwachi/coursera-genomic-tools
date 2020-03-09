@@ -3,6 +3,8 @@ Software needed to complete Coursera's "Command Line Tools for Genomic Data Scie
 
 This creates the environment that's needed to complete the course assignments.  The image was built for people who can't install VirtualBox VM (the course provides virtual appliance image file).
 
+Hopefully you'll find this useful.  Please don't forget to star!
+
 # Setup
 If you are under firewall and require proxy server, edit docker-compose.yml file first.
 
