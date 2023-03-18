@@ -2,6 +2,7 @@ FROM continuumio/miniconda
 
 COPY loop.sh /loop.sh
 
+RUN apt-get --allow-releaseinfo-change update
 RUN apt-get update &&  apt-get install -y libncurses5 vim
 RUN conda install -y -c bioconda samtools=1.2
 RUN conda install -y -c bioconda bedtools=2.24.0
