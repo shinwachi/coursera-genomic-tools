@@ -13,8 +13,8 @@ If you are under firewall and require proxy server, edit docker-compose.yml file
 Otherwise, simply build and run docker-compose.
 
 ```bash
-docker-compose build
-docker-compose run
+docker build -t command-line-genomics:coursera .  
+docker compose up
 ```
 
 # Usage
@@ -25,7 +25,5 @@ Coursera course provides data files for assignments. Download and expand in Data
 Then bash into the container to do your homework.
 
 ```bash
-docker exec -it <image_name> bash
+docker exec -it CONTAINER_ID bash
 ```
-
-
